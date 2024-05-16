@@ -9,7 +9,7 @@ def calculate_average_grade():
     english_score = float(input("Enter English Score: "))
 
     # Calculate the average grade
-    average_grade = 0
+    average_grade = (math_score + science_score + english_score)/3
 
     # Return the student's name and their average grade
     return student_name, average_grade
