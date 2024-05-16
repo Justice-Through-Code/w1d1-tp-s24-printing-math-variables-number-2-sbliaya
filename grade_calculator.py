@@ -1,6 +1,6 @@
 def calculate_average_grade():
     # Prompt the user for their name and store it in the student_name variable
-    student_name = ""
+    student_name = input("Enter your name: ")
 
     # Prompt the user for their scores in Math, Science, and English
     # Store the scores in the respective variables: math_score, science_score, english_score
