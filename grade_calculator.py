@@ -19,4 +19,5 @@ if __name__ == '__main__':
     student_name, average_grade = calculate_average_grade()
 
     # Print the student's name and their average grade
-    print(f"")
+    print("f"student name: {student_name}")
+    print("faverage grade: {average_grade: .2f}")
